@@ -1,0 +1,58 @@
+
+
+img {
+    height: 200px;
+    width: 200px;
+    padding-right: 10px;
+}
+
+/* Trying to centralize items on the page */
+ .maincontainer {
+   max-width: fit-content;
+   margin: auto;
+   background: whitesmoke;
+   padding: 20px;
+} 
+
+.sec1 > div {
+    display: flex;
+
+    border: 1px solid peru;
+    margin: 10px;
+    padding: 10px;
+}
+
+ /* .sec1 > div {
+    display: flex;
+    justify-content: space-between;
+} 
+
+ #ptags {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 2;
+     
+}
+
+
+
+aside {
+    float: right;
+    background-color: rgb(200, 197, 197);
+    
+    padding-left: 10px;
+    margin-left: 10px;
+} */
+
+
+/* trying hard to position elements as needed :'-( */
+
+aside {
+    float: right;   /* I finally got it!!!!!!!!!!* Putting aside inside same div as img and h tags worked! Yaaaaayyyy!*/
+  
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 250px;
+} 
+
+
