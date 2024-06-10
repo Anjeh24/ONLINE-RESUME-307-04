@@ -59,3 +59,8 @@ pre {
     font-size: 1.3em;
 }
 
+a:visited {
+    color: goldenrod;
+    
+}
+
